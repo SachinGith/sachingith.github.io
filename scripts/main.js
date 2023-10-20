@@ -8,7 +8,7 @@ myImage.onclick = function() {
       myImage.setAttribute('src','media/firefox-icon.png');
     }
 }
-let myButton = document.querySelector('button');
+let MyButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -27,7 +27,7 @@ if(!localStorage.getItem('name')) {
   let storedName = localStorage.getItem('name');
   myHeading.textContent = 'Harry Potter is cool, ' + storedName + ' ,you know?';
 }
-myButton.onclick = function() {
+MyButton.onclick = function() {
   setUserName();
 }
 
