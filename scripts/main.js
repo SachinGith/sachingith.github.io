@@ -30,6 +30,6 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
-let myButton2 = document.querySelector('button')
+
 
 
